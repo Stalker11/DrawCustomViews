@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.olegel.testcircularlayout.CircularView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="com.olegel.testcircularlayout.MainActivity"
+    android:id="@+id/pie"
+    custom:showText="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</com.olegel.testcircularlayout.CircularView>
+<!--  <com.olegel.testcircularlayout.CircularView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:custom="http://schemas.android.com/apk/res-auto"
+      tools:context="com.olegel.testcircularlayout.MainActivity"
+      android:id="@+id/pie"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      custom:showText="true"
+      android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/appt_center_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent" >
+
+      <TextView
+          android:id="@+id/one"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="APP CENTER"
+          android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent" >
+
+      <TextView
+          android:id="@+id/two"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          android:text="MEDS CABINET"
+          android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark" >
+
+      <TextView
+          android:id="@+id/three"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          android:text="CHECK-IN"
+          android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent" >
+
+      <TextView
+          android:id="@+id/four"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          android:text="MY TRACKERS"
+          android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark" >
+
+      <TextView
+          android:id="@+id/five"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          android:text="MY ACCOUNTS"
+          android:textStyle="bold" />
+    </RelativeLayout>
+  </com.olegel.testcircularlayout.CircularView>-->
+
