@@ -1,4 +1,4 @@
-package com.olegel.testcircularlayout;
+package com.olegel.testcircularlayout.views;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -78,6 +78,6 @@ public class TestView extends View{
    // canvas.clipRect(100,1000,1000,1000);
     canvas.drawRect(r,strokePaint);
     canvas.drawPath(path,fillPaint);
-    canvas.drawCircle(20,20,50,circlePaint);
+    canvas.drawCircle(50,120,50,circlePaint);
   }
 }

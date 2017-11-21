@@ -1,4 +1,4 @@
-package com.olegel.testcircularlayout;
+package com.olegel.testcircularlayout.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,6 +12,8 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
+
+import com.olegel.testcircularlayout.R;
 
 /**
  * Created by Oleg on 08.11.2017.
