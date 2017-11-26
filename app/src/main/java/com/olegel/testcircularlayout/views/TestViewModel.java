@@ -27,4 +27,7 @@ public class TestViewModel extends ViewModel {
     Log.d(TAG, "getUserModel:getModel " + myModel);
     return myModel;
   }
+  public void changeModel(MutableLiveData<UserModel> model){
+    this.myModel = model;
+  }
 }
