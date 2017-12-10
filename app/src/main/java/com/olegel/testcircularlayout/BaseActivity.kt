@@ -3,8 +3,11 @@ package com.olegel.testcircularlayout
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProviders
+import android.arch.persistence.room.Room
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
+import com.olegel.testcircularlayout.models.AppDatabase
+import com.olegel.testcircularlayout.models.AppDatabaseJava
 import com.olegel.testcircularlayout.models.UserModel
 import com.olegel.testcircularlayout.views.TestViewModel
 
@@ -15,6 +18,9 @@ abstract class BaseActivity:AppCompatActivity() {
     private val TAG = BaseActivity::class.java.simpleName
     override fun onStart() {
         super.onStart()
+        val db = Room.databaseBuilder(this,
+                AppDatabaseJava::class.java, "Employee").build()
+        Log.d(TAG, "onStart: " + db.isOpen)
         val model = ViewModelProviders.of(this).get(TestViewModel::class.java)
         val myModel = MutableLiveData<UserModel>()
         val user = UserModel()

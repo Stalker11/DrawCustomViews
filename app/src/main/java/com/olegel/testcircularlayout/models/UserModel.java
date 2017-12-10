@@ -1,15 +1,24 @@
 package com.olegel.testcircularlayout.models;
 
+import android.arch.persistence.room.ColumnInfo;
+import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.PrimaryKey;
+
 /**
  * Created by Oleg on 21.11.2017.
  */
-
+@Entity
 public class UserModel {
-  private String name;
-  private String lastName;
+  @PrimaryKey(autoGenerate = true)
   private int age;
+  @ColumnInfo(name = "firstName")
+  private String name;
+  @ColumnInfo(name = "lastName")
+  private String lastName;
 
-  public String getName() {
+  public UserModel() {
+  }
+public String getName() {
     return name;
   }
 
@@ -32,4 +41,5 @@ public class UserModel {
   public void setAge(int age) {
     this.age = age;
   }
+
 }
