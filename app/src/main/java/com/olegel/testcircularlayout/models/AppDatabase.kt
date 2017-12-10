@@ -8,5 +8,5 @@ import android.arch.persistence.room.RoomDatabase
  */
 //@Database(entities = {Gamer.class}, version = 1 ) throw error Name expected
 abstract class AppDatabase:RoomDatabase() {
-    abstract fun userDao(): UserDao
+    //abstract fun userDao(): UserDao
 }
